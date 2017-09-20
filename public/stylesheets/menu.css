@@ -1,0 +1,51 @@
+body {
+    font-family: "Lato", "Arial", sans-serif;
+    /*font: 13px "Trebuchet MS", sans-serif;*/
+}
+
+/*DIV*/
+.topDiv {
+    height: 70px;
+    position: relative;
+    background-color: #51445F;
+}
+
+.menuDiv {
+    height: 100vh;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: #51445F;
+}
+
+.contentDiv {
+    height: 100vh;
+    background-color: #e7eaeb;
+}
+
+.accountDiv {
+    display: flex;
+    align-items: center;
+    float:right;
+    height: 100%;
+}
+
+/*BUTTONS AND INPUT*/
+
+.menuBtn {
+    width: 100%;
+    font-size: 15px;
+    border-radius: 0px;
+    padding: 18px 30px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.accountLoginElement{
+    float: right;
+    margin-left: 10px;
+}
+
+.accountLogoutElement{
+    float: right;
+    margin-left: auto;
+}

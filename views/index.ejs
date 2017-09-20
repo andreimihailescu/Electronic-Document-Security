@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<% include ../public/chunks/head %>
+
+<link rel="stylesheet" href="/stylesheets/index.css">
+
+<body>
+
+<% include ../public/chunks/menu %>
+
+<div class="col-md-10 contentDiv">
+
+    <div class="col-md-1"></div>
+    <div class="col-md-10">
+
+        <div class="col-md-12" style="margin-top: 15px">
+            <h2 style="float: left; margin-right: 10px">Proiect Securitatea Documentelor Electronice - Slavila Alexandru, Mihailescu Andrei</h2>
+
+        </div>
+
+        <div class="col-md-12" style="margin-top: 15px">
+            <h4 style="float: left; margin-right: 10px">Incarcare imagine: </h4>
+            <label class="btn btn-primary">
+                Browse&hellip; <input type="file" id="FileUpload" style="display: none;">
+            </label>
+        </div>
+
+        <div class="col-md-12">
+            <h4>Imaginea:</h4>
+            <img src="" height="200" style="border-radius: 10px;" id="poza">
+        </div>
+
+        <div class="col-md-12">
+            <h4>Imaginea in format Base 64:</h4>
+            <textarea class="form-control textarea" id="textarea1" rows="4" cols="50"></textarea>
+        </div>
+
+        <div class="col-md-12">
+            <h4>Imaginea criptata cu Triple DES:</h4>
+            <textarea class="form-control textarea" id="textarea2" rows="4" cols="50"></textarea>
+        </div>
+    </div>
+    <div class="col-md-1"></div>
+</div>
+
+<script src="javascripts/index.js"></script>
+</body>
+</html>

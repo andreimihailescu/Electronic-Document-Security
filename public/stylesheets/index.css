@@ -1,0 +1,15 @@
+.inputField {
+    margin-bottom: 10px;
+}
+
+.browseBtn{
+    margin-top: 20px;
+}
+
+.textarea{
+    width: 100%;
+    height: 180px !important;
+    resize: none;
+    margin-top: 10px;
+}
+
